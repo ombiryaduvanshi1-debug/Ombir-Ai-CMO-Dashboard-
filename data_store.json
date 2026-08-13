@@ -1,0 +1,707 @@
+{
+  "users": [
+    {
+      "id": "u-1",
+      "name": "Ombir Yadav (CMO)",
+      "email": "admin@cmo.ai",
+      "role": "admin",
+      "avatar": "/ombir_photo.svg",
+      "createdAt": "2026-01-10T08:00:00Z",
+      "lastLogin": "2026-08-09T18:14:09.548Z",
+      "status": "active"
+    },
+    {
+      "id": "u-2",
+      "name": "Alex Rivera (Growth Lead)",
+      "email": "user@cmo.ai",
+      "role": "user",
+      "avatar": "/ombir_photo.svg",
+      "createdAt": "2026-02-01T09:30:00Z",
+      "lastLogin": "2026-08-09T16:10:58.867Z",
+      "status": "active"
+    },
+    {
+      "id": "u-3",
+      "name": "David Chen (Analyst)",
+      "email": "david@cmo.ai",
+      "role": "user",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-03-15T11:20:00Z",
+      "lastLogin": "2026-08-08T14:10:00Z",
+      "status": "active"
+    }
+  ],
+  "salesData": [
+    {
+      "date": "2026-08-01",
+      "revenue": 24500,
+      "dealsClosed": 12,
+      "avgDealSize": 2041,
+      "pipelineValue": 180000,
+      "targetRevenue": 22000
+    },
+    {
+      "date": "2026-08-02",
+      "revenue": 28200,
+      "dealsClosed": 15,
+      "avgDealSize": 1880,
+      "pipelineValue": 195000,
+      "targetRevenue": 22000
+    },
+    {
+      "date": "2026-08-03",
+      "revenue": 19800,
+      "dealsClosed": 9,
+      "avgDealSize": 2200,
+      "pipelineValue": 175000,
+      "targetRevenue": 22000
+    },
+    {
+      "date": "2026-08-04",
+      "revenue": 31000,
+      "dealsClosed": 18,
+      "avgDealSize": 1722,
+      "pipelineValue": 210000,
+      "targetRevenue": 22000
+    },
+    {
+      "date": "2026-08-05",
+      "revenue": 35400,
+      "dealsClosed": 21,
+      "avgDealSize": 1685,
+      "pipelineValue": 230000,
+      "targetRevenue": 22000
+    },
+    {
+      "date": "2026-08-06",
+      "revenue": 42100,
+      "dealsClosed": 24,
+      "avgDealSize": 1754,
+      "pipelineValue": 260000,
+      "targetRevenue": 22000
+    },
+    {
+      "date": "2026-08-07",
+      "revenue": 38900,
+      "dealsClosed": 20,
+      "avgDealSize": 1945,
+      "pipelineValue": 245000,
+      "targetRevenue": 22000
+    },
+    {
+      "date": "2026-08-08",
+      "revenue": 46200,
+      "dealsClosed": 26,
+      "avgDealSize": 1776,
+      "pipelineValue": 285000,
+      "targetRevenue": 22000
+    },
+    {
+      "date": "2026-08-09",
+      "revenue": 51200,
+      "dealsClosed": 29,
+      "avgDealSize": 1765,
+      "pipelineValue": 310000,
+      "targetRevenue": 22000
+    }
+  ],
+  "funnelData": [
+    {
+      "stage": "Raw Impressions / Clicks",
+      "count": 142000,
+      "conversionRate": 100,
+      "dropoffRate": 0,
+      "value": 0
+    },
+    {
+      "stage": "Inbound Leads",
+      "count": 12400,
+      "conversionRate": 8.73,
+      "dropoffRate": 91.27,
+      "value": 124000
+    },
+    {
+      "stage": "Marketing Qualified (MQL)",
+      "count": 4850,
+      "conversionRate": 39.11,
+      "dropoffRate": 60.89,
+      "value": 388000
+    },
+    {
+      "stage": "Sales Qualified (SQL)",
+      "count": 1920,
+      "conversionRate": 39.58,
+      "dropoffRate": 60.42,
+      "value": 960000
+    },
+    {
+      "stage": "Demos / Opportunities",
+      "count": 780,
+      "conversionRate": 40.62,
+      "dropoffRate": 59.38,
+      "value": 1560000
+    },
+    {
+      "stage": "Closed Won Deals",
+      "count": 312,
+      "conversionRate": 40,
+      "dropoffRate": 60,
+      "value": 1872000
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "cmp-101",
+      "name": "Q3 Enterprise SaaS Search",
+      "channel": "Google Ads",
+      "status": "active",
+      "spend": 18400,
+      "revenue": 79120,
+      "leads": 840,
+      "qualifiedLeads": 390,
+      "conversions": 52,
+      "roi": 4.3,
+      "cpl": 21.9,
+      "cac": 353.8,
+      "ctr": 4.8,
+      "startDate": "2026-07-01"
+    },
+    {
+      "id": "cmp-102",
+      "name": "AI Automation Video Retargeting",
+      "channel": "Meta Ads",
+      "status": "active",
+      "spend": 14200,
+      "revenue": 49700,
+      "leads": 620,
+      "qualifiedLeads": 240,
+      "conversions": 31,
+      "roi": 3.5,
+      "cpl": 22.9,
+      "cac": 458,
+      "ctr": 3.2,
+      "startDate": "2026-07-15"
+    },
+    {
+      "id": "cmp-103",
+      "name": "B2B Executive Thought Leadership",
+      "channel": "LinkedIn",
+      "status": "active",
+      "spend": 21000,
+      "revenue": 88200,
+      "leads": 410,
+      "qualifiedLeads": 290,
+      "conversions": 42,
+      "roi": 4.2,
+      "cpl": 51.2,
+      "cac": 500,
+      "ctr": 2.1,
+      "startDate": "2026-06-01"
+    },
+    {
+      "id": "cmp-104",
+      "name": "Organic Tech Blog SEO Blitz",
+      "channel": "Organic Search",
+      "status": "active",
+      "spend": 4500,
+      "revenue": 36000,
+      "leads": 1250,
+      "qualifiedLeads": 480,
+      "conversions": 64,
+      "roi": 8,
+      "cpl": 3.6,
+      "cac": 70.3,
+      "ctr": 6.5,
+      "startDate": "2026-05-10"
+    },
+    {
+      "id": "cmp-105",
+      "name": "Product Upgrade Email Nurture",
+      "channel": "Email",
+      "status": "active",
+      "spend": 1200,
+      "revenue": 28800,
+      "leads": 930,
+      "qualifiedLeads": 510,
+      "conversions": 78,
+      "roi": 24,
+      "cpl": 1.29,
+      "cac": 15.38,
+      "ctr": 12.4,
+      "startDate": "2026-07-20"
+    },
+    {
+      "id": "cmp-106",
+      "name": "Salesforce Outbound MQL Automation",
+      "channel": "Salesforce CRM",
+      "status": "active",
+      "spend": 8500,
+      "revenue": 55250,
+      "leads": 310,
+      "qualifiedLeads": 210,
+      "conversions": 45,
+      "roi": 6.5,
+      "cpl": 27.4,
+      "cac": 188.8,
+      "ctr": 8.9,
+      "startDate": "2026-06-15"
+    }
+  ],
+  "channels": [
+    {
+      "channel": "Google Ads",
+      "spend": 28400,
+      "revenue": 119280,
+      "roi": 4.2,
+      "leads": 1460,
+      "conversions": 84,
+      "sharePct": 32
+    },
+    {
+      "channel": "Meta Ads",
+      "spend": 18200,
+      "revenue": 58240,
+      "roi": 3.2,
+      "leads": 980,
+      "conversions": 42,
+      "sharePct": 21
+    },
+    {
+      "channel": "LinkedIn",
+      "spend": 24000,
+      "revenue": 100800,
+      "roi": 4.2,
+      "leads": 520,
+      "conversions": 51,
+      "sharePct": 27
+    },
+    {
+      "channel": "Organic Search",
+      "spend": 6500,
+      "revenue": 52000,
+      "roi": 8,
+      "leads": 1850,
+      "conversions": 88,
+      "sharePct": 14
+    },
+    {
+      "channel": "Email",
+      "spend": 2100,
+      "revenue": 48300,
+      "roi": 23,
+      "leads": 1420,
+      "conversions": 112,
+      "sharePct": 6
+    }
+  ],
+  "regions": [
+    {
+      "id": "r-1",
+      "region": "North America",
+      "country": "United States",
+      "city": "San Francisco",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "revenue": 185000,
+      "leads": 3200,
+      "topChannel": "Google Ads",
+      "growthPct": 18.4
+    },
+    {
+      "id": "r-2",
+      "region": "North America",
+      "country": "United States",
+      "city": "New York",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "revenue": 162000,
+      "leads": 2800,
+      "topChannel": "LinkedIn",
+      "growthPct": 22.1
+    },
+    {
+      "id": "r-3",
+      "region": "Europe",
+      "country": "United Kingdom",
+      "city": "London",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "revenue": 98000,
+      "leads": 1650,
+      "topChannel": "Google Ads",
+      "growthPct": 14.2
+    },
+    {
+      "id": "r-4",
+      "region": "Europe",
+      "country": "Germany",
+      "city": "Berlin",
+      "lat": 52.52,
+      "lng": 13.405,
+      "revenue": 74000,
+      "leads": 1210,
+      "topChannel": "Meta Ads",
+      "growthPct": 11.8
+    },
+    {
+      "id": "r-5",
+      "region": "Asia Pacific",
+      "country": "Singapore",
+      "city": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "revenue": 86000,
+      "leads": 1400,
+      "topChannel": "Organic Search",
+      "growthPct": 29.5
+    },
+    {
+      "id": "r-6",
+      "region": "Asia Pacific",
+      "country": "Japan",
+      "city": "Tokyo",
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "revenue": 62000,
+      "leads": 990,
+      "topChannel": "Email",
+      "growthPct": 16
+    }
+  ],
+  "crmConnections": [
+    {
+      "id": "crm-sf",
+      "provider": "salesforce",
+      "name": "Salesforce Sales Cloud Enterprise",
+      "status": "connected",
+      "instanceUrl": "https://cmo-enterprise.my.salesforce.com",
+      "apiKey": "sf_oauth_token_prod_99218",
+      "lastSyncedAt": "2026-08-09T16:18:18.170Z",
+      "autoSync": true,
+      "syncIntervalMinutes": 15,
+      "totalSyncedLeads": 4991,
+      "totalSyncedDeals": 630,
+      "syncedCampaignsCount": 12
+    },
+    {
+      "id": "crm-zoho",
+      "provider": "zoho",
+      "name": "Zoho CRM One",
+      "status": "connected",
+      "instanceUrl": "https://crm.zoho.com/v2/cmo_global",
+      "apiKey": "zoho_authtoken_881273912",
+      "lastSyncedAt": "2026-08-09T16:18:18.892Z",
+      "autoSync": true,
+      "syncIntervalMinutes": 60,
+      "totalSyncedLeads": 2209,
+      "totalSyncedDeals": 291,
+      "syncedCampaignsCount": 6
+    },
+    {
+      "id": "crm-hub",
+      "provider": "hubspot",
+      "name": "HubSpot Marketing Hub Professional",
+      "status": "disconnected",
+      "instanceUrl": "https://app.hubspot.com/portal/918237",
+      "apiKey": "",
+      "autoSync": false,
+      "syncIntervalMinutes": 30,
+      "totalSyncedLeads": 0,
+      "totalSyncedDeals": 0,
+      "syncedCampaignsCount": 0
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alt-1",
+      "type": "critical",
+      "title": "Meta Ads CAC Spike",
+      "message": "Meta Ads Customer Acquisition Cost (CAC) rose +18% over the past 48 hours to $458.00.",
+      "timestamp": "2026-08-09T15:40:58.867Z",
+      "actionLabel": "Adjust Meta Budget"
+    },
+    {
+      "id": "alt-2",
+      "type": "positive",
+      "title": "LinkedIn ROI Outperformance",
+      "message": "LinkedIn Thought Leadership campaign reached 4.2x ROI with a +32% surge in SQL conversions.",
+      "timestamp": "2026-08-09T14:10:58.867Z",
+      "actionLabel": "Scale Campaign"
+    },
+    {
+      "id": "alt-3",
+      "type": "warning",
+      "title": "Funnel MQL Drop-off",
+      "message": "MQL-to-SQL conversion rate dipped by 3.2% on organic tech blog traffic.",
+      "timestamp": "2026-08-09T12:10:58.867Z",
+      "actionLabel": "Review Lead Scoring"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "log-1786299249549-508",
+      "timestamp": "2026-08-09T18:14:09.549Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "User Logged In",
+      "details": "Successful login via email admin@cmo.ai",
+      "category": "auth"
+    },
+    {
+      "id": "log-1786299229641-158",
+      "timestamp": "2026-08-09T18:13:49.641Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "User Logged In",
+      "details": "Successful login via email admin@cmo.ai",
+      "category": "auth"
+    },
+    {
+      "id": "log-1786297027897-779",
+      "timestamp": "2026-08-09T17:37:07.897Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Triggered AI Analysis",
+      "details": "Generated automated CMO insights and strategic budget recommendations.",
+      "category": "ai_analysis"
+    },
+    {
+      "id": "log-1786296446799-69",
+      "timestamp": "2026-08-09T17:27:26.799Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Triggered AI Analysis",
+      "details": "Generated automated CMO insights and strategic budget recommendations.",
+      "category": "ai_analysis"
+    },
+    {
+      "id": "log-1786296444887-222",
+      "timestamp": "2026-08-09T17:27:24.887Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Triggered AI Analysis",
+      "details": "Generated automated CMO insights and strategic budget recommendations.",
+      "category": "ai_analysis"
+    },
+    {
+      "id": "log-1786292315531-60",
+      "timestamp": "2026-08-09T16:18:35.531Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Triggered AI Analysis",
+      "details": "Generated automated CMO insights and strategic budget recommendations.",
+      "category": "ai_analysis"
+    },
+    {
+      "id": "log-1786292298893-243",
+      "timestamp": "2026-08-09T16:18:18.893Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Executed CRM API Data Sync",
+      "details": "Pulled 59 new leads and 11 deals from Zoho CRM One.",
+      "category": "crm_sync"
+    },
+    {
+      "id": "log-1786292298170-502",
+      "timestamp": "2026-08-09T16:18:18.170Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Executed CRM API Data Sync",
+      "details": "Pulled 76 new leads and 9 deals from Salesforce Sales Cloud Enterprise.",
+      "category": "crm_sync"
+    },
+    {
+      "id": "log-1786292296734-608",
+      "timestamp": "2026-08-09T16:18:16.734Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Executed CRM API Data Sync",
+      "details": "Pulled 95 new leads and 11 deals from Salesforce Sales Cloud Enterprise.",
+      "category": "crm_sync"
+    },
+    {
+      "id": "log-1786292290659-131",
+      "timestamp": "2026-08-09T16:18:10.659Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Triggered AI Analysis",
+      "details": "Generated automated CMO insights and strategic budget recommendations.",
+      "category": "ai_analysis"
+    },
+    {
+      "id": "log-1786292087825-884",
+      "timestamp": "2026-08-09T16:14:47.825Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "AI CMO Chat Query",
+      "details": "Asked: \"What is my sales trend this month?...\"",
+      "category": "ai_analysis"
+    },
+    {
+      "id": "log-1786292050147-437",
+      "timestamp": "2026-08-09T16:14:10.147Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Triggered AI Analysis",
+      "details": "Generated automated CMO insights and strategic budget recommendations.",
+      "category": "ai_analysis"
+    },
+    {
+      "id": "log-1786292044703-782",
+      "timestamp": "2026-08-09T16:14:04.703Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "Triggered AI Analysis",
+      "details": "Generated automated CMO insights and strategic budget recommendations.",
+      "category": "ai_analysis"
+    },
+    {
+      "id": "log-1",
+      "timestamp": "2026-08-09T15:55:58.867Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "CRM Sync Executed",
+      "details": "Synced 142 new leads and 18 deals from Salesforce REST API.",
+      "category": "crm_sync"
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-08-09T15:10:58.867Z",
+      "userId": "u-2",
+      "userName": "Alex Rivera (Growth Lead)",
+      "userRole": "user",
+      "action": "AI Deep Analysis Generated",
+      "details": "Ran LLM audit on Q3 campaign ROI and CAC anomalies.",
+      "category": "ai_analysis"
+    },
+    {
+      "id": "log-3",
+      "timestamp": "2026-08-08T16:10:58.867Z",
+      "userId": "u-1",
+      "userName": "Ombir Yadav (CMO)",
+      "userRole": "admin",
+      "action": "CSV Dataset Uploaded",
+      "details": "Uploaded Q3_Paid_Search_Performance.csv (420 records).",
+      "category": "data_upload"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-1",
+      "title": "Q3 Executive Growth & CMO Summary",
+      "generatedAt": "2026-08-07T16:10:58.867Z",
+      "period": "Q3 2026",
+      "author": "Ombir Yadav (CMO)",
+      "summary": "Q3 marketing performance achieved $378,320 in revenue with an aggregate ROI of 4.4x across paid and organic channels.",
+      "totalRevenue": 378320,
+      "totalSpend": 85900,
+      "overallROI": 4.4,
+      "totalLeads": 6230,
+      "totalConversions": 312,
+      "aiInsightsSummary": [
+        "Google Ads and Organic Search yielded the lowest CAC ($353 and $70 respectively).",
+        "Meta Ads CAC experienced a temporary spike due to audience saturation in creative set B.",
+        "Email Nurture automation remains the highest ROI channel at 24.0x."
+      ],
+      "topCampaigns": [
+        {
+          "id": "cmp-101",
+          "name": "Q3 Enterprise SaaS Search",
+          "channel": "Google Ads",
+          "status": "active",
+          "spend": 18400,
+          "revenue": 79120,
+          "leads": 840,
+          "qualifiedLeads": 390,
+          "conversions": 52,
+          "roi": 4.3,
+          "cpl": 21.9,
+          "cac": 353.8,
+          "ctr": 4.8,
+          "startDate": "2026-07-01"
+        },
+        {
+          "id": "cmp-102",
+          "name": "AI Automation Video Retargeting",
+          "channel": "Meta Ads",
+          "status": "active",
+          "spend": 14200,
+          "revenue": 49700,
+          "leads": 620,
+          "qualifiedLeads": 240,
+          "conversions": 31,
+          "roi": 3.5,
+          "cpl": 22.9,
+          "cac": 458,
+          "ctr": 3.2,
+          "startDate": "2026-07-15"
+        },
+        {
+          "id": "cmp-103",
+          "name": "B2B Executive Thought Leadership",
+          "channel": "LinkedIn",
+          "status": "active",
+          "spend": 21000,
+          "revenue": 88200,
+          "leads": 410,
+          "qualifiedLeads": 290,
+          "conversions": 42,
+          "roi": 4.2,
+          "cpl": 51.2,
+          "cac": 500,
+          "ctr": 2.1,
+          "startDate": "2026-06-01"
+        }
+      ],
+      "status": "ready"
+    }
+  ],
+  "uploadedFiles": [],
+  "chatHistory": {
+    "u-1": [
+      {
+        "id": "msg-welcome",
+        "sender": "ai",
+        "text": "Hello! I'm your AI Chief Marketing Officer Advisor. I have synchronized data from Google Ads, Meta Ads, LinkedIn, Salesforce CRM, and your recent campaign reports. How can I assist your marketing strategy today?",
+        "timestamp": "2026-08-09T16:13:57.155Z",
+        "suggestions": [
+          "What is my sales trend this month?",
+          "Which campaign performed best?",
+          "Why did leads drop last week?",
+          "Provide a CAC vs ROI breakdown across channels"
+        ]
+      },
+      {
+        "id": "msg-u-1786292037155",
+        "sender": "user",
+        "text": "What is my sales trend this month?",
+        "timestamp": "2026-08-09T16:13:57.155Z"
+      },
+      {
+        "id": "msg-ai-1786292087824",
+        "sender": "ai",
+        "text": "Your sales trend this month is **strongly positive and highly profitable**, generating **$337,070 in total revenue** on **$67,800 total spend**, yielding an impressive blended **ROI of 4.97x**. \n\nSales velocity is driven by **312 total conversions** with an average revenue per unit/deal of **~$1,080** and an efficient average **CAC of $217.31**.\n\n### **Key Sales Trend Drivers**\n\n* **Core Volume Drivers (LinkedIn & Google):** High-intent channels account for **$167.3k (49.6%)** of total sales. LinkedIn leads absolute revenue generation at **$88.2k (4.2x ROI)** across 42 high-value enterprise conversions, closely followed by Google Ads at **$79.1k (4.3x ROI)**.\n* **Profitability & Efficiency Engine (Email & SEO):** Email Nurture is your most potent margin driver, converting warm pipeline into **$28.8k in revenue** with an extraordinary **24.0x ROI** across 78 sales. Organic SEO complements this with **$36.0k revenue** at an ultra-low **$70.30 CAC**.\n* **Primary Margin Drag (Meta Ads):** Meta Ads generated **$49.7k in revenue**, but efficiency is severely lagging with a **$458 CAC**—more than double your blended average (**$217.31**)—resulting in your lowest channel ROI (**3.5x**).\n* **Pipeline Health:** With **2,120 qualified leads** generated out of 4,360 total (a strong **48.6% qualification rate**), lead-to-sale velocity indicates sustained sales momentum heading into next month.\n\n---\n\n### **Strategic CMO Recommendation**\nShift **$5,000–$7,000** from Meta Ads into **Google Ads** and **LinkedIn** to capitalize on high-intent buyer demand, while scaling email nurture sequences to convert the remaining **1,808 open MQLs**.\n\n---\n\n### **Suggested Follow-Up Questions**\n1. *\"How should we reallocate our Meta Ads budget to optimize overall CAC and ROI?\"*\n2. *\"What is the projected revenue impact if we double our spend on Organic SEO and LinkedIn?\"*",
+        "timestamp": "2026-08-09T16:14:47.824Z",
+        "suggestions": [
+          "How can we lower Meta Ads CAC?",
+          "What is our projected Q4 revenue growth?",
+          "Compare Google Ads vs LinkedIn performance"
+        ]
+      }
+    ]
+  }
+}

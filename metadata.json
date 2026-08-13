@@ -1,0 +1,6 @@
+{
+  "name": "Ombir AI CMO Dashboard",
+  "description": "Full-stack AI-powered Chief Marketing Officer dashboard with CRM integrations, automated analytics, LLM insights, and admin control.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
